@@ -25,17 +25,17 @@ else:
 ## Sample Solution: Method 2
 
 ```python
-x=int(input("Enter your grade:"))
+grade=int(input("Enter your grade:"))
 
-if 0<=x<49:
+if 0<=grade<49:
     print("F")
-elif 50<=x<59:
+elif 50<=grade<59:
     print("D")
-elif 60<=x<69:
+elif 60<=grade<69:
     print("C")
-elif 70<=x<79:
+elif 70<=grade<79:
     print("B")
-elif 80<=x<=100:
+elif 80<=grade<=100:
     print("A")
 else:
     print("Not a valid number")
