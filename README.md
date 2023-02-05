@@ -7,6 +7,7 @@ create code reads a valid numeric prints the letter grade
  
 ```python
 grade = int(input("Enter your grade"))
+
 if grade>=0 and grade<50:
   print("F")
 elif grade>=50 and grade<60:
@@ -25,6 +26,7 @@ else:
 
 ```python
 x=int(input("Enter your grade:"))
+
 if 0<=x<49:
     print("F")
 elif 50<=x<59:
@@ -36,7 +38,7 @@ elif 70<=x<79:
 elif 80<=x<=100:
     print("A")
 else:
-    print("That is not a valid number")
+    print("Not a valid number")
 ```
 
 ## Sample Solution: Method 3
