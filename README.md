@@ -3,7 +3,7 @@
 create code reads a valid numeric prints the letter grade 
 *Note that the code  accepts a valid `grade` which is only numeric values between 0 and 100.*
 
-## Sample Solution: Method 1
+## Sample Solution: Method 1 (using conditionals and booleans)
  
 ```python
 grade = int(input("Enter your grade"))
@@ -22,7 +22,7 @@ else:
   print("Invalid Input")
 ```
 
-## Sample Solution: Method 2
+## Sample Solution: Method 2 (using conditionals only)
 
 ```python
 grade=int(input("Enter your grade:"))
@@ -41,7 +41,7 @@ else:
     print("Not a valid number")
 ```
 
-## Sample Solution: Method 3
+## Sample Solution: Method 3 (using conditionals and range function)
 
 ```python
 grade = int(input("Enter your grade: "))
