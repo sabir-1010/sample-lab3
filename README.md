@@ -14,18 +14,18 @@
 
 *Note that our code accepts a valid `grade` which is only numeric values between 0 and 100.*
 
-`
+```python
 grade = int(input("Enter your grade"))
 if grade<50 and grade>0:
-print("F")
+  print("F")
 elif grade>=50 and grade<60:
-print("D")
+  print("D")
 elif grade>=60 and grade<70:
-print("C")
+  print("C")
 elif grade>=70 and grade<80:
-print("B")
+  print("B")
 elif grade>=80 and grade<=100:
-print("A")
+  print("A")
 else:
-print("Invalid Input")
-`
+  print("Invalid Input")
+```
